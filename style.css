@@ -1,0 +1,25 @@
+body {
+  background: rgb(62, 93, 96);
+  overflow:hidden;
+  touch-action: manipulation;
+}
+#game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  height: auto;
+  width: 90%; 
+  background: rgba(43, 68, 180,80);
+}
+.button{
+  height: 150px;
+  width: 150px; 
+  margin: 50px ;
+}
+#but{
+  position: absolute;
+  margin-bottom: 60px;
+  bottom: 2px;
+  left: 12%;
+}
