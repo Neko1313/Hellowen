@@ -3,6 +3,7 @@ const ctx = canvas.getContext('2d');
 
 var f = new FontFace('Pix', 'url(txt.ttf)')
 var fonmis = new Audio('fon.mp3');
+fonmis.autoplay = true;
 
 var left = document.getElementById('left');
 var fire = document.getElementById('fire');
@@ -249,7 +250,6 @@ function start(){
     //result = prompt('Введите NickName', "Neko");
 
     //names = result;
-    fonmis.autoplay = true;
 
     nameGame();
 
